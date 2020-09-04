@@ -10,7 +10,7 @@ Video Overview |
 
 ## Live Demo
 
-Check out the live demo here: http://react-email-editor-demo.netlify.com/ ([Source Code](https://github.com/unlayer/react-email-editor/blob/master/demo/src/index.js))
+Check out the live demo here: http://react-landing-page-editor-demo.netlify.com/ ([Source Code](https://github.com/unlayer/react-landing-page-editor/blob/master/demo/src/index.js))
 
 ## Blog Post
 
@@ -21,7 +21,7 @@ Here's a blog post with a quickstart guide: https://medium.com/unlayer-blog/crea
 The easiest way to use React Email Editor is to install it from NPM and include it in your own React build process.
 
 ```
-npm install react-email-editor --save
+npm install react-landing-page-editor --save
 ```
 
 ## Usage
@@ -32,7 +32,7 @@ Require the EmailEditor component and render it with JSX:
 import React, { useRef } from 'react';
 import { render } from 'react-dom'
 
-import EmailEditor from 'react-email-editor';
+import EmailEditor from 'react-landing-page-editor';
 
 const App = (props) => {
   const emailEditorRef = useRef(null);
@@ -73,7 +73,7 @@ render(<App />, document.getElementById('app'))
 | **saveDesign**  | `Function callback`      | Returns the design JSON in a callback function                 |
 | **exportHtml**  | `Function callback`      | Returns the design HTML and JSON in a callback function        |
 
-See the [example source](https://github.com/unlayer/react-email-editor/blob/master/demo/src/index.js) for a reference implementation.
+See the [example source](https://github.com/unlayer/react-landing-page-editor/blob/master/demo/src/index.js) for a reference implementation.
 
 ### Properties
 
