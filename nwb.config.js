@@ -3,7 +3,7 @@ module.exports = {
   npm: {
     esModules: true,
     umd: {
-      global: 'EmailEditor',
+      global: 'WebEditor',
       externals: {
         react: 'React'
       }
